@@ -1,0 +1,15 @@
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/sf
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/sf.deps.json
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/sf.runtimeconfig.json
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/sf.dll
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/sf.pdb
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/sf.vbproj.AssemblyReference.cache
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/sf.GeneratedMSBuildEditorConfig.editorconfig
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/sf.AssemblyInfoInputs.cache
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/sf.AssemblyInfo.vb
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/sf.vbproj.CoreCompileInputs.cache
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/sf.dll
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/refint/sf.dll
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/sf.pdb
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/sf.genruntimeconfig.cache
+/Users/congshi/Desktop/sf/obj/Debug/net6.0/ref/sf.dll

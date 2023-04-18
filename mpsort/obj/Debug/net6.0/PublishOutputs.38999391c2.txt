@@ -1,0 +1,5 @@
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/publish/sf
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/publish/sf.dll
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/publish/sf.deps.json
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/publish/sf.runtimeconfig.json
+/Users/congshi/Desktop/sf/bin/Debug/net6.0/publish/sf.pdb

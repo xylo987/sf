@@ -1,0 +1,41 @@
+# 冒泡排序C，Haskell，Python, Javascript实现及测试
+
+测试环境: mac os 8g, intel core i5双核 1.8ghz, ssd
+
+## vb
+
+vb安装dotnet core从官网上下载安装包，安装后
+在当前目录创建一个VB的项目
+dotnet new console -lang VB
+dotnet build
+dotnet pubish release
+dotnet run
+cd bin/Debug/net6.0/publish
+time ./sf
+./sf  0.06s user 0.02s system 87% cpu 0.085 total
+
+## haskell
+
+haskell安装ghc
+ghc --make -O mpsort.hs
+time ./mpsort
+./mpsort  0.09s user 0.02s system 91% cpu 0.121 total
+
+## python3
+
+python安装python3.11
+time python3 mpsort.py
+python3 mpsort.py  0.22s user 0.02s system 97% cpu 0.242 total
+
+## node
+
+js安装nodejs
+time node mpsort.js
+node mpsort.js  0.08s user 0.02s system 88% cpu 0.114 total
+
+## c
+
+c安装gcc
+gcc mpsort.c
+time ./a.out
+./a.out  0.00s user 0.00s system 68% cpu 0.008 total
