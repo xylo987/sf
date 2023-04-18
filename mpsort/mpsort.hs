@@ -86,7 +86,5 @@ loop' xs = (loop' le ++ [re])
 
 -- 主函数
 main = do
-    -- 由于不是递归会不断的反复调用函数，所以会不断的在当前进程的栈内存上申请
-    -- 内存，超过进程运行环境的限制后就会栈溢出，即使
-    -- ghc --make -O mpsort.hs都没用
-    print (loop' (reverse [1..100000000]))
+    -- ghc --make -O mpsort.hs
+    print (loop' (reverse [1..1000]))
