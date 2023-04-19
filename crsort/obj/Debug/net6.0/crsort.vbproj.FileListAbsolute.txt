@@ -1,0 +1,15 @@
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/crsort.vbproj.AssemblyReference.cache
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/crsort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/crsort.AssemblyInfoInputs.cache
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/crsort.AssemblyInfo.vb
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/crsort.vbproj.CoreCompileInputs.cache
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/crsort
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/crsort.deps.json
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/crsort.runtimeconfig.json
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/crsort.dll
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/crsort.pdb
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/crsort.dll
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/refint/crsort.dll
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/crsort.pdb
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/crsort.genruntimeconfig.cache
+/Users/congshi/Desktop/sf/crsort/obj/Debug/net6.0/ref/crsort.dll

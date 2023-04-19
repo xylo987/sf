@@ -1,0 +1,17 @@
+# 插入排序各种语言实现
+
+vb 0.087
+
+js 0.086
+
+haskell 0.030
+
+c 0.008
+
+python 0.124
+
+相同空间复杂度，速度
+c > haskell > js > vb > python
+
+
+python永远垫底

@@ -1,0 +1,5 @@
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/publish/crsort
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/publish/crsort.dll
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/publish/crsort.deps.json
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/publish/crsort.runtimeconfig.json
+/Users/congshi/Desktop/sf/crsort/bin/Debug/net6.0/publish/crsort.pdb
