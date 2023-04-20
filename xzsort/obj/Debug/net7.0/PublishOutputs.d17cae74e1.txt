@@ -1,0 +1,5 @@
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\publish\xzsort.exe
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\publish\xzsort.dll
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\publish\xzsort.deps.json
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\publish\xzsort.runtimeconfig.json
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\publish\xzsort.pdb

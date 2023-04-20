@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\xzsort.vbproj.AssemblyReference.cache
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\xzsort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\xzsort.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\xzsort.AssemblyInfo.vb
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\xzsort.vbproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\xzsort.exe
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\xzsort.deps.json
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\xzsort.runtimeconfig.json
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\xzsort.dll
+C:\Users\admin\Desktop\sf\xzsort\bin\Debug\net7.0\xzsort.pdb
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\xzsort.dll
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\refint\xzsort.dll
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\xzsort.pdb
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\xzsort.genruntimeconfig.cache
+C:\Users\admin\Desktop\sf\xzsort\obj\Debug\net7.0\ref\xzsort.dll
