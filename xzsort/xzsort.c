@@ -5,17 +5,23 @@
  */
 int main() {
 	void xzsort(int [], int);
-	int size = 1000;
+	void xzsort_desc(int [], int);
+	const int size = 1000;
 	int L[size] = {};
 	int i = 0;
 	int j = size;
-	while (i<size){
-		L[i]=j--;
-		i++;
+    int last = size - 1;
+	while (i < size){
+		L[i] = j --;
+		i ++;
 	}
-	xzsort(L,size);
-	for(i=0;i<size;i++){
-		printf("%d,",L[i]);
+	xzsort_desc(L,size);
+	//xzsort(L,size);
+	for(i = 0; i < size; i++){
+        if (i == last) 
+            printf("%d\n",L[i]);
+        else
+            printf("%d,",L[i]);
 	}
 	return 0;
 }
@@ -40,6 +46,7 @@ void xzsort(int L[], int size) {
 			tmp = L[m];
 			L[m] = L[mid_id];
 			L[mid_id] = tmp;
+            mid_id = -1;
 		}
 		m ++;
 	}
