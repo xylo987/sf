@@ -2,12 +2,14 @@
 
 int main() {
     void kssort(int [], int, int);
+    void kssort_desc(int [], int, int);
     void print(int [], int);
     void init(int [], int, int);
     const int size = 1000;
     int L[size];
     init(L, size, 1000);
-    kssort(L, 0, size - 1);
+    //kssort(L, 0, size - 1);
+    kssort_desc(L, 0, size - 1);
     print(L, size);
     return 0;
 }
@@ -39,6 +41,16 @@ void kssort(int L[], int p, int r) {
     }
 }
 
+void kssort_desc(int L[], int p, int r) {
+    int partition_desc(int [], int ,int);
+    int q;
+    if (p < r) {
+        q = partition_desc(L, p, r);
+        kssort_desc(L, p, q - 1);
+        kssort_desc(L, q + 1, r);
+    }
+}
+
 int partition(int L[], int p, int r) {
     void exchange(int [], int ,int);
     int i = p - 1;
@@ -54,6 +66,24 @@ int partition(int L[], int p, int r) {
     exchange(L, i, r);
     return i;
 }
+
+int partition_desc(int L[], int p, int r) {
+    void exchange(int [], int ,int);
+    int i = p - 1;
+    int j;
+    int x = L[r];
+    for (j = p; j < r; j++) {
+        if (L[j] > L[r]) {
+            i ++;
+            exchange(L, i, j);
+        }
+    }
+    i ++;
+    exchange(L, i, r);
+    return i;
+}
+
+
 
 void exchange(int L[], int i, int j) {
     int tmp = L[i];
