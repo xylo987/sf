@@ -6,7 +6,7 @@ int main() {
     const int size = 1000;
     int L[size] = {};
     int n1;
-    for(n = size - 1,n1 = 0; n >= 0 && n1 < size; n--,n1++){
+    for(n = size - 1,n1 = 0; n >= 0 && n1 < size; n--,n1++) {
         L[n1] = n;
     }
     mpsort(L, size);
