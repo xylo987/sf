@@ -44,7 +44,7 @@ enum TrueOrFalse push(struct Stack *s, int *element) {
             s -> arr = element;
         }
         else {
-            s -> arr ++;
+            s -> arr = s -> arr + sizeof(int);
             s -> arr = element;
         }
         s -> top ++;
@@ -54,9 +54,11 @@ enum TrueOrFalse push(struct Stack *s, int *element) {
 
 int *pop(struct Stack *s) {
     if (empty(s) == False) {
-        int *ele = s -> arr;
-        s -> arr = s -> arr - sizeof(int);
+        int *ele;
+        ele = s -> arr;
         s -> top --;
+        if (empty(s) == False)
+            s -> arr = s -> arr - sizeof(int);
         return ele;
     }
     else {
@@ -69,10 +71,10 @@ int main() {
     struct Stack *s = init();
     int element = 100;
     int e1 = 101;
-    enum TrueOrFalse tf = push(s, &element);
+    int e2 = 102;
+    push(s, &element);
     push(s, &e1);
-    printf("push return: %d\n", tf);
-    printf("%d\n", empty(s));
+    push(s, &e2);
     printf("%d\n", *pop(s));
     printf("%d\n", *pop(s));
     return 0;
