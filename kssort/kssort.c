@@ -25,7 +25,7 @@ void print(int L[], int size) {
     int i;
     for (i = 0; i < size; i ++) {
         if (i == size - 1)
-            printf("%d", L[i]);
+            printf("%d\n", L[i]);
         else
             printf("%d,", L[i]);
     }
@@ -82,8 +82,6 @@ int partition_desc(int L[], int p, int r) {
     exchange(L, i, r);
     return i;
 }
-
-
 
 void exchange(int L[], int i, int j) {
     int tmp = L[i];

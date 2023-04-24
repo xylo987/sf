@@ -1,0 +1,15 @@
+/Users/congshi/Desktop/sf/kssort/bin/Debug/net6.0/kssort
+/Users/congshi/Desktop/sf/kssort/bin/Debug/net6.0/kssort.deps.json
+/Users/congshi/Desktop/sf/kssort/bin/Debug/net6.0/kssort.runtimeconfig.json
+/Users/congshi/Desktop/sf/kssort/bin/Debug/net6.0/kssort.dll
+/Users/congshi/Desktop/sf/kssort/bin/Debug/net6.0/kssort.pdb
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/kssort.vbproj.AssemblyReference.cache
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/kssort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/kssort.AssemblyInfoInputs.cache
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/kssort.AssemblyInfo.vb
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/kssort.vbproj.CoreCompileInputs.cache
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/kssort.dll
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/refint/kssort.dll
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/kssort.pdb
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/kssort.genruntimeconfig.cache
+/Users/congshi/Desktop/sf/kssort/obj/Debug/net6.0/ref/kssort.dll
