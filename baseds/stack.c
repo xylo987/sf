@@ -34,14 +34,18 @@ enum TrueOrFalse empty(struct Stack *s) {
 
 enum TrueOrFalse push(struct Stack *s, int element) {
     if ((s -> size - 1) == s -> top) {
+        int *arr = (int *)malloc(sizeof(int) * s -> size + SIZE);
+        int i;
+        for (i = 0; i < s -> size; i++) {
+            *(arr + sizeof(int) * i) = 1;
+        }
     }
     else {
         if (True == empty(s)) {
             *(s -> arr) = element;
         }
         else {
-            s -> arr ++;
-            *(s -> arr) = element;
+            *(s -> arr + sizeof(int) * (s -> top + 1)) = element;
         }
         s -> top ++;
     }
@@ -51,16 +55,19 @@ enum TrueOrFalse push(struct Stack *s, int element) {
 int pop(struct Stack *s) {
     if (empty(s) == False) {
         int ele;
-        ele = *(s -> arr);
+        ele = *(s -> arr + (s -> top * sizeof(int)));
         s -> top --;
-        if (empty(s) == False)
-            s -> arr --;
         return ele;
     }
     else {
         printf("栈已空");
         exit(-1);
     }
+}
+
+void clear(struct Stack *s) {
+    free(s -> arr);
+    s = NULL;
 }
 
 int main() {
@@ -75,5 +82,7 @@ int main() {
 
     printf("%d\n", pop(&s));
     printf("%d\n", pop(&s));
+
+    clear(&s);
     return 0;
 }
