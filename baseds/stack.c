@@ -56,6 +56,7 @@ int pop(struct Stack *s) {
     if (empty(s) == False) {
         int ele;
         ele = *(s -> arr + (s -> top * sizeof(int)));
+        *(s -> arr + (s -> top * sizeof(int))) = 0;
         s -> top --;
         return ele;
     }
