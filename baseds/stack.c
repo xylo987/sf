@@ -1,4 +1,3 @@
-#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,18 +14,15 @@ struct Stack {
     int size; 
 };
 
-struct Stack * init() {
-    struct Stack s, *s1;
-    s.top = -1;
-    s.size = SIZE;
-    s.arr = NULL;
-    s.arr = (int *)malloc(s.size * sizeof(int));
-    if (s.arr == NULL) {
+void init(struct Stack *s) {
+    s -> top = -1;
+    s -> size = SIZE;
+    s -> arr = NULL;
+    s -> arr = (int *)malloc(s -> size * sizeof(int));
+    if (s -> arr == NULL) {
         printf("内存申请失败");
         exit(-1);
     }
-    s1 = &s;
-    return s1;
 }
 
 enum TrueOrFalse empty(struct Stack *s) {
@@ -36,29 +32,29 @@ enum TrueOrFalse empty(struct Stack *s) {
         return False;
 }
 
-enum TrueOrFalse push(struct Stack *s, int *element) {
+enum TrueOrFalse push(struct Stack *s, int element) {
     if ((s -> size - 1) == s -> top) {
     }
     else {
         if (True == empty(s)) {
-            s -> arr = element;
+            *(s -> arr) = element;
         }
         else {
-            s -> arr = s -> arr + sizeof(int);
-            s -> arr = element;
+            s -> arr ++;
+            *(s -> arr) = element;
         }
         s -> top ++;
     }
     return True;
 }
 
-int *pop(struct Stack *s) {
+int pop(struct Stack *s) {
     if (empty(s) == False) {
-        int *ele;
-        ele = s -> arr;
+        int ele;
+        ele = *(s -> arr);
         s -> top --;
         if (empty(s) == False)
-            s -> arr = s -> arr - sizeof(int);
+            s -> arr --;
         return ele;
     }
     else {
@@ -68,14 +64,16 @@ int *pop(struct Stack *s) {
 }
 
 int main() {
-    struct Stack *s = init();
-    int element = 100;
+    struct Stack s;
+    init(&s);
+    int e0 = 100;
     int e1 = 101;
     int e2 = 102;
-    push(s, &element);
-    push(s, &e1);
-    push(s, &e2);
-    printf("%d\n", *pop(s));
-    printf("%d\n", *pop(s));
+    push(&s, e0);
+    push(&s, e1);
+    push(&s, e2);
+
+    printf("%d\n", pop(&s));
+    printf("%d\n", pop(&s));
     return 0;
 }
