@@ -1,0 +1,29 @@
+<!doctype html>
+<canvas id="gpuCanvas"></canvas>
+<script>
+async function init() {
+    if (!navigator.gpu) {
+        throw Error("WebGPU not supported.");
+    }
+
+    const adapter = await navigator.gpu.requestAdapter();
+    if (!adapter) {
+        throw Error("Couldn't request WebGPU adapter.");
+    }
+
+    const device = await adapter.requestDevice();
+
+    const canvas = document.querySelector("#gpuCanvas");
+    const context = canvas.getContext("webgpu");
+
+    //使用最佳纹理格式配置 GPUCanvasContext
+    context.configure({
+      device: device,
+      format: navigator.gpu.getPreferredCanvasFormat(),
+      alphaMode: "premultiplied",
+    });
+    console.log('初始化成功');
+}   
+
+init();
+</script>
