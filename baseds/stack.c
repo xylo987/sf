@@ -34,7 +34,7 @@ enum TrueOrFalse empty(struct Stack *s) {
 
 enum TrueOrFalse push(struct Stack *s, int element) {
     if ((s -> size - 1) == s -> top) {
-        int *arr = (int *)malloc(sizeof(int) * s -> size + SIZE);
+        int *arr = (int *)malloc(sizeof(int) * (s -> size + SIZE));
         int i;
         for (i = 0; i < s -> size; i++) {
             *(arr + sizeof(int) * i) = *(s -> arr + sizeof(int) * i);
