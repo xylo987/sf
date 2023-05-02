@@ -1,0 +1,30 @@
+<meta charset="utf8">
+<div id="a" style="border: solid 1px; width: 300px; height: 100px; overflow: scroll; margin: 100px;">
+	大屏上突然跳出一个主机页面,有人在移动鼠标，几番操作下，上面显示一个名为《第八届大卫杯比赛试题》的文件夹。
+
+　　文件夹是加密的,但是操控电脑的人很快将这个文件夹打开了,随即点开一个文档，这时大家才发现文档里是刚才二试的题目。
+
+　　然而晴也盯着大屏手指有规律地敲打在桌面，突然停住,不对,这不是他们二试的题目,或者应该说这和他们二试的题目非常像，只不过有的地方有些出入。
+
+　　她牢牢盯着那些题目过了一遍,猛然怔住,这应该是邢武没有动过之前的二试卷子，不知道他什么时候已经将题库复原了，这么说，此时正在远程操控的人,难道就是…邢武？
+</div>
+<script>
+	let a = document.querySelector('#a');
+	let f = function(e) {
+		console.log('--------------' + e.constructor.toString() + '-----------')
+		for (x in e) {
+			if (typeof x == 'function') {
+				eval('e.' + x + "()");
+			} else {
+				console.log(x + ':' + e.x.toString());
+			}
+		}
+	};
+
+	for (x in a) {
+		if (x.startsWith('on')) {
+			a[x] = f;
+		} 
+		console.log(x);
+	}
+</script>
