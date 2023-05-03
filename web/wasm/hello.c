@@ -1,5 +1,3 @@
-#include <stdio.h>
-
-void print() {
-  printf("Hello World\n");
+int add(int a, int b) {
+    return a + b;
 }
