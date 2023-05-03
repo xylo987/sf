@@ -36,14 +36,18 @@ void insert(struct LinkList *L, struct Node *x) {
 	}
 }
 
-voide delete(struct LinkList *L, struct Node *x) {
-	struct Node *tmp = L -> head;
-	while(tmp -> next != NULL) {
-		if (tmp == x) {
-			tmp -> prev = tmp -> next;
-			tmp -> next -> prev = tmp;
+void delete(struct LinkList *L, struct Node *x) {
+	struct Node *head = L -> head;
+	struct Node *prev, *next;
+	while(head -> next != NULL) {
+		if (head == x) {
+			prev = head -> prev;
+			next = head -> next;
+
+			prev -> next = next;
+			next -> prev = prev;
 		}
-		tmp = tmp -> next;
+		head = head -> next;
 	}
 }
 
